@@ -22,13 +22,13 @@ Whether you need to reverse engineer undocumented web APIs, clone application UX
 
 ### 🧩 Included Frameworks & Tools
 
-| Component | Target Layer | Primary Role |
-| :--- | :--- | :--- |
-| **`reverse-api-engineer`** | Web & Network | Autonomous HAR traffic capture, endpoint extraction, and typed API client code generation. |
-| **`replica-skill`** | Product & Architecture | An 11-stage autonomous agent pipeline to map flows, recreate design systems, build backends, and clone apps clean-room style. |
-| **`craft-anything`** | Native Binary & Games | High-speed Rust-based inspection engine with visual parity verification (Diff) for sites, desktop software, APKs, and games. |
-| **`rea` (Reverse Engineer Anything)** | Deep Decompilation | 200+ MCP tools for inspecting native Windows binaries (`.exe`/`.dll`), Electron apps, .NET assemblies, and Ghidra integration. |
-| **NSA Ghidra + OpenJDK 21** | Machine Code | NSA's industry-standard open-source decompiler & disassembler suite pre-configured for automated agent calls. |
+| Component | Target Layer | Primary Role | Credits & Upstream Repo |
+| :--- | :--- | :--- | :--- |
+| **`reverse-api-engineer`** | Web & Network | Autonomous HAR traffic capture, endpoint extraction, and typed API client code generation. | Created by [@kalil0321](https://github.com/kalil0321) • [`kalil0321/reverse-api-engineer`](https://github.com/kalil0321/reverse-api-engineer) |
+| **`replica-skill`** | Product & Architecture | An 11-stage autonomous agent pipeline to map flows, recreate design systems, build backends, and clone apps clean-room style. | Created by [@Jakeschincariol](https://github.com/Jakeschincariol) • [`Jakeschincariol/replica-skill`](https://github.com/Jakeschincariol/replica-skill) |
+| **`craft-anything`** | Native Binary & Games | High-speed Rust-based inspection engine with visual parity verification (Diff) for sites, desktop software, APKs, and games. | Created by [@storytold](https://github.com/storytold) • [`storytold/craft-anything`](https://github.com/storytold/craft-anything) |
+| **`rea` (Reverse Engineer Anything)** | Deep Decompilation | 200+ MCP tools for inspecting native Windows binaries (`.exe`/`.dll`), Electron apps, .NET assemblies, and Ghidra integration. | Created by [@morluto](https://github.com/morluto) • [`morluto/rea`](https://github.com/morluto/rea) |
+| **NSA Ghidra + OpenJDK 21** | Machine Code | NSA's industry-standard open-source decompiler & disassembler suite pre-configured for automated agent calls. | NSA • [`NationalSecurityAgency/ghidra`](https://github.com/NationalSecurityAgency/ghidra) |
 
 ---
 
@@ -55,14 +55,14 @@ curl -fsSL https://raw.githubusercontent.com/javadhamed/reverse-engineering-suit
 
 با استفاده از این مجموعه، تمام ابزارهای مورد نیاز برای استخراج API از وب‌سایت‌ها، کالبدشکافی رابط کاربری و معماری، دیکامپایل باینری‌ها و برنامه‌های دسکتاپ تنها با یک دستور نصب و فعال می‌شوند.
 
-### 🧩 ابزارهای موجود در این پکیج
+### 🧩 ابزارهای موجود در این پکیج و سازندگان اصلی
 
-| ابزار | لایه هدف | کاربرد اصلی |
-| :--- | :--- | :--- |
-| **`reverse-api-engineer`** | ترافیک وب و شبکه | ضبط خودکار ترافیک، شناسایی اندپوینت‌ها و ساخت خودکار کلاینت API تایپ‌شده (Python, TS, Go...). |
-| **`replica-skill`** | محصول و معماری | پایپ‌لاین ۱۱ مرحله‌ای برای بازآفرینی تمیز (Clean-Room) اپلیکیشن‌ها، استخراج سیستم طراحی و پایگاه داده. |
-| **`craft-anything`** | باینری نیتیو و بازی | موتور بازرسی سریع با Rust، تحلیل فایل‌های فشرده و مقایسه بصری شباهت محصول (Diff Engine). |
-| **`rea` + NSA Ghidra** | دیکامپایل باینری و دسکتاپ | بیش از ۲۰۰ ابزار MCP جهت مهندسی معکوس فایل‌های اجرایی (`.exe`), الکترون، دات‌نت و تبدیل به سودوکد. |
+| ابزار | لایه هدف | کاربرد اصلی | منبع و توسعه‌دهنده اصلی |
+| :--- | :--- | :--- | :--- |
+| **`reverse-api-engineer`** | ترافیک وب و شبکه | ضبط خودکار ترافیک، شناسایی اندپوینت‌ها و ساخت خودکار کلاینت API تایپ‌شده (Python, TS, Go...). | سازنده: [@kalil0321](https://github.com/kalil0321) • [`kalil0321/reverse-api-engineer`](https://github.com/kalil0321/reverse-api-engineer) |
+| **`replica-skill`** | محصول و معماری | پایپ‌لاین ۱۱ مرحله‌ای برای بازآفرینی تمیز (Clean-Room) اپلیکیشن‌ها، استخراج سیستم طراحی و پایگاه داده. | سازنده: [@Jakeschincariol](https://github.com/Jakeschincariol) • [`Jakeschincariol/replica-skill`](https://github.com/Jakeschincariol/replica-skill) |
+| **`craft-anything`** | باینری نیتیو و بازی | موتور بازرسی سریع با Rust، تحلیل فایل‌های فشرده و مقایسه بصری شباهت محصول (Diff Engine). | سازنده: [@storytold](https://github.com/storytold) • [`storytold/craft-anything`](https://github.com/storytold/craft-anything) |
+| **`rea` + NSA Ghidra** | دیکامپایل باینری و دسکتاپ | بیش از ۲۰۰ ابزار MCP جهت مهندسی معکوس فایل‌های اجرایی (`.exe`), الکترون، دات‌نت و تبدیل به سودوکد. | سازنده: [@morluto](https://github.com/morluto) • [`morluto/rea`](https://github.com/morluto/rea) |
 
 ---
 
